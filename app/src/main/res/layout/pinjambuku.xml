@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.vika.ggf.pinjambuku">
+
+    <TextView
+        android:id="@+id/judulbuku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LASKAR PELANGI"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/coverbuku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judulbuku"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/laskarpelangi" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coverbuku"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/detailbuku">
+        <TextView
+            android:id="@+id/penulis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Penulis : Andrea Hinata"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:text="ISBN/ISSN : 979-3062-79-7"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:text="Penerbit : Bentang Pustaka"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="75dp"
+            android:text="Kota Terbit : Jogjakarta"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:text="Tahun : 2007"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="125dp"
+            android:text="Bahasa : Bahasa Indonesia"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp"
+            android:text="Tema : Fiksi"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coverbuku"
+        android:layout_marginTop="210dp">
+        <Button
+            android:id="@+id/btnBatal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batal"
+            android:layout_marginLeft="90dp"/>
+
+        <Button
+            android:id="@+id/btnPinjam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pinjam" />
+        <Button
+            android:id="@+id/btnPerpanjang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perpanjang" />
+    </LinearLayout>
+</RelativeLayout>

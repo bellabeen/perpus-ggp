@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beranda"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_beranda" />
+        <item
+            android:id="@+id/nav_caribuku"
+            android:icon="@drawable/ic_search_black"
+            android:title="@string/menu_caribuku" />
+        <item
+            android:id="@+id/nav_pinjambuku"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/menu_pinjambuku" />
+        <item
+            android:id="@+id/nav_riwayatpeminjaman"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Riwayat Peminjaman" />
+        <item
+            android:id="@+id/nav_mintabuku"
+            android:icon="@drawable/ic_library_add_black_24dp"
+            android:title="@string/menu_mintabuku" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="@string/menu_info"/>
+    </group>
+</menu>

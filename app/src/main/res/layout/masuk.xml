@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.vika.ggf.masuk">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/perpus" />
+
+    <EditText
+        android:id="@+id/nomerindek"
+        android:layout_width="325dp"
+        android:layout_height="65dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="  Nomer Indek Karyawan"
+        tools:layout_editor_absoluteY="134dp"
+        tools:layout_editor_absoluteX="38dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:drawableLeft="@drawable/ic_assignment_ind_black_24dp"/>
+
+    <EditText
+        android:id="@+id/katasandi"
+        android:layout_below="@+id/nomerindek"
+        android:layout_width="325dp"
+        android:layout_height="65dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="  Kata Sandi"
+        tools:layout_editor_absoluteY="218dp"
+        tools:layout_editor_absoluteX="38dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:drawableRight="@drawable/ic_visibility_black_24dp"/>
+
+    <Button
+        android:id="@+id/btnMasuk"
+        android:layout_below="@+id/katasandi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="314dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_below="@+id/btnMasuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belum punya akun? Silahkan"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnDaftar"
+        android:layout_below="@+id/btnMasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="314dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vika.ggf.register">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/perpus" />
+
+    <EditText
+        android:id="@+id/nik"
+        android:layout_centerHorizontal="true"
+        android:layout_width="325dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:hint="  Nomor Indek Karyawan"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="134dp"
+        android:drawableLeft="@drawable/ic_assignment_ind_black_24dp"/>
+
+    <Button
+        android:id="@+id/btnCek"
+        android:layout_below="@id/nik"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="56dp"
+        android:layout_weight="0.2"
+        android:text="Cek"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <EditText
+        android:id="@+id/hp"
+        android:layout_below="@+id/btnCek"
+        android:layout_centerHorizontal="true"
+        android:layout_width="325dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="  Nomor Telepon"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="134dp"
+        android:drawableLeft="@drawable/ic_call_black_24dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_below="@id/hp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="325dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="  E-mail GGF"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="134dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"/>
+
+    <Button
+        android:id="@+id/btnBatal"
+        android:layout_below="@id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="146dp"
+        android:text="Batal"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <Button
+        android:id="@+id/btnDaftar"
+        android:layout_below="@id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="56dp"
+        android:text="Daftar"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+</RelativeLayout>

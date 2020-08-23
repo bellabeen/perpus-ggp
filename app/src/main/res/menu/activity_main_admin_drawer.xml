@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_anggota"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/menu_anggota" />
+        <item
+            android:id="@+id/nav_peminjaman"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/menu_peminjaman" />
+        <item
+            android:id="@+id/nav_perpanjangan"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="@string/menu_perpanjang" />
+        <item
+            android:id="@+id/nav_pengembalian"
+            android:icon="@drawable/ic_archive_black_24dp"
+            android:title="@string/menu_pengembalian" />
+    </group>
+</menu>

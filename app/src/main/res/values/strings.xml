@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ggf</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_keluar">Keluar</string>
+
+    <string name="menu_beranda">Beranda</string>
+    <string name="menu_caribuku">Cari Buku</string>
+    <string name="menu_pinjambuku">Pinjam Buku</string>
+    <string name="menu_perpanjangbuku">Perpanjang Buku</string>
+    <string name="menu_mintabuku">Permintaan Buku</string>
+    <string name="menu_info">Info</string>
+
+    <string name="widget_empty">Tulis ..</string>
+
+    // MainActivity Admin
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_admin">MainActivityAdmin</string>
+
+    <string name="menu_anggota">Anggota</string>
+    <string name="menu_peminjaman">Peminjaman</string>
+    <string name="menu_perpanjang">Perpanjang</string>
+    <string name="menu_pengembalian">Pengembalian</string>
+</resources>
